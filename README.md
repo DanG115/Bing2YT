@@ -48,6 +48,11 @@ Why would you do that? But sure, you can disable the extension—no judgment. (O
 Because Bing Videos is the equivalent of your GPS telling you to "Turn left" into a lake. Why take the long route when you can go straight to YouTube with zero hassle?  
 
 ---
+### 🤷‍♂️ Why Isn’t This on the Chrome or Edge Web Store?  
+
+Because I can’t be asked to go through the process. Between creating this extension and filling out forms, I chose the fun option. You're welcome.  
+
+---
 
 ## 🛡️ Is This Safe?  
 
