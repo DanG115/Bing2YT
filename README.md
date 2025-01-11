@@ -1,8 +1,7 @@
 # 🏃‍♀️ Bing? Nah. Straight to YouTube! 🎯  
 
-Are you tired of Bing Videos playing middleman in your precious YouTube viewing experience? Imagine clicking a video and being dragged into Bing's awkward embrace. Yeah... no thanks.  
+Because Bing Videos is like ordering a pizza and getting a salad. This extension is the hero we need, saving you from Bing’s clutches and delivering you straight to YouTube like a package with Amazon Prime. Faster. Smarter. Install now and give Bing the silent treatment it deserves.
 
-This extension is here to save your time, your sanity, and your browser history. It automatically **yeets** you out of Bing Videos and delivers you straight to YouTube where you belong.  
 
 ---
 
