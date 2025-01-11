@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Bing to YouTube Redirector",
+    "version": "1.0",
+    "description": "Redirects Bing video results to YouTube.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.bing.com/videos*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "storage": {
+      "local": {}
+    }
+  }
+  
