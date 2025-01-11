@@ -1,12 +1,12 @@
 # 🏃‍♀️ Bing? Nah. Straight to YouTube! 🎯  
 
-Because Bing Videos is like ordering a pizza and getting a coupon for salad dressing. This extension saves you from Bing’s labyrinth and catapults you straight to YouTube like a magician pulling a rabbit out of a hat—minus the confusion. Install it now and tell Bing, "It's not me; it's you."  
+Because Bing Videos is like ordering a pizza and getting a discount for salad dressing. This extension saves you from Bing’s labyrinth and catapults you straight to YouTube like a magician pulling a rabbit out of a hat—minus the confusion. Install it now and tell Bing, "It's not me; it's you."  
 
 ---
 
 ## ✨ Features  
 
-- **🚀 Instant Freedom**: Bing Videos? Never heard of her.  
+- **🚀 Instant Freedom**: Bing Videos? Never heard of it.  
 - **⚡ One-Click Toggle**: Feel like exploring chaos? Disable it. Prefer order? Enable it. Either way, it’s fun.  
 - **😎 Pure Spite Technology™**: Because life’s too short to let Bing slow you down.  
 - **🐇 Blazing Fast Redirects**: Blink, and you’re on YouTube. Unless you’re superhuman, you won’t even notice the transition.  
@@ -24,9 +24,9 @@ Because Bing Videos is like ordering a pizza and getting a coupon for salad dres
 
 ## 🧙‍♂️ How It Works  
 
-1. **Stumble Into Bing Videos**: We know, it happens.  
+1. **Stumble Into Bing Videos**: I know, it happens.  
 2. **Click on a YouTube Link**: Bing tries to keep you in its weird little playground.  
-3. **BOOM!** You’re teleported to YouTube faster than a toddler spotting candy in a store.  
+3. **BOOM!** You’re teleported to YouTube faster than a toddler spotting sweets in a store.  
 
 ---
 
@@ -66,6 +66,3 @@ Got a Bing-dodging friend? Share it. Let’s rescue the world, one redirect at a
 
 Just someone who enjoys cat videos without Bing playing the middleman.  
 
----
-
-### Bing? More like **Blip**. 👋  
