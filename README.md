@@ -1,75 +1,71 @@
 # 🏃‍♀️ Bing? Nah. Straight to YouTube! 🎯  
 
-Because Bing Videos is like ordering a pizza and getting a salad. This extension is the hero we need, saving you from Bing’s clutches and delivering you straight to YouTube like a package with Amazon Prime. Faster. Smarter. Install now and give Bing the silent treatment it deserves.
-
+Because Bing Videos is like ordering a pizza and getting a coupon for salad dressing. This extension saves you from Bing’s labyrinth and catapults you straight to YouTube like a magician pulling a rabbit out of a hat—minus the confusion. Install it now and tell Bing, "It's not me; it's you."  
 
 ---
 
 ## ✨ Features  
 
 - **🚀 Instant Freedom**: Bing Videos? Never heard of her.  
-- **⚡ One-Click Toggle**: Feeling charitable? Disable it. Feeling sassy? Enable it.  
-- **😎 Maximum Petty Energy**: Because life is too short to watch YouTube through Bing.  
-- **🐇 Lightning Fast**: Blink, and you're on YouTube. Probably faster than your Wi-Fi.  
+- **⚡ One-Click Toggle**: Feel like exploring chaos? Disable it. Prefer order? Enable it. Either way, it’s fun.  
+- **😎 Pure Spite Technology™**: Because life’s too short to let Bing slow you down.  
+- **🐇 Blazing Fast Redirects**: Blink, and you’re on YouTube. Unless you’re superhuman, you won’t even notice the transition.  
 
 ---
 
 ## 🛠 Installation  
 
-1. **Download This Masterpiece**: Clone or download this repo. It's worth it.  
-2. **Unlock the Magic**: Open `chrome://extensions` (or `edge://extensions` for the brave).  
-3. **Go Developer Mode**: Top-right corner, toggle that switch like a pro.  
-4. **Load This Bad Boy**: Click "Load Unpacked" and select this repo folder.  
-5. **Unleash Chaos**: Toggle it on and let it do its thing.  
+1. **Download This Game-Changer**: Clone or download this *masterpiece of coding genius*.  
+2. **Enter Developer Mode**: Head to `chrome://extensions` (or `edge://extensions` if you like to live dangerously) and toggle Developer Mode like you're flipping a light switch.  
+3. **Unleash the Beast**: Click "Load Unpacked" and point it at this repo folder.  
+4. **Enjoy the Ride**: Let this extension do its thing while you bask in its magnificence.  
 
 ---
 
 ## 🧙‍♂️ How It Works  
 
-1. **Visit Bing Videos** (First, why? Second, we’re here to save you).  
-2. **Click on a YouTube Video** (Bing tries to trap you).  
-3. **BOOM!** You're on YouTube faster than Bing can say “relevant search results.”  
+1. **Stumble Into Bing Videos**: We know, it happens.  
+2. **Click on a YouTube Link**: Bing tries to keep you in its weird little playground.  
+3. **BOOM!** You’re teleported to YouTube faster than a toddler spotting candy in a store.  
 
 ---
 
 ## 🤔 FAQs  
 
 **Why does this exist?**  
-Because Bing thought it was clever, and we said "not today, Satan."  
+Because Bing Videos is like going to a fancy restaurant and getting microwaved leftovers. We deserve better.  
 
 **Does it work on all YouTube links on Bing Videos?**  
-Yes, it’s like a homing pigeon for YouTube URLs.  
+Yes. It’s like a heat-seeking missile for YouTube URLs.  
 
 **What if I want to stay on Bing Videos?**  
-You can disable the extension, but we’ll judge you.  
+Why would you do that? But sure, you can disable the extension—no judgment. (Okay, maybe a little judgment.)  
 
 ---
 
 ## 🔥 Why Should You Care?  
 
-Because Bing Videos is like a bad knockoff of something you didn’t even ask for.  
-Why let Bing stand between you and your sweet, sweet YouTube content?  
-Download this extension, and let’s get you to YouTube without detours or ads.  
+Because Bing Videos is the equivalent of your GPS telling you to "Turn left" into a lake. Why take the long route when you can go straight to YouTube with zero hassle?  
 
 ---
 
-## 🛡️ Safe?  
+## 🛡️ Is This Safe?  
 
-100% safe. Except for Bing’s feelings.  
+Absolutely. The only casualty here is Bing’s ego.  
 
 ---
 
 ## 🌟 Support  
 
-If this extension made you laugh, saved you time, or helped you troll Bing, give it a star ⭐!  
-Feel free to share it with fellow Bing escapees. Together, we can free the internet, one redirect at a time.  
+Love it? Laugh at it? ⭐ Star it.  
+Got a Bing-dodging friend? Share it. Let’s rescue the world, one redirect at a time.  
 
 ---
 
 ## 👨‍💻 Author  
 
-A YouTube-lover, Bing-dodger, and someone who just wants to watch cat videos in peace.  
+Just someone who enjoys cat videos without Bing playing the middleman.  
 
 ---
 
-### Bing? More like **Bye**. 👋  
+### Bing? More like **Blip**. 👋  
