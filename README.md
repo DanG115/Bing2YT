@@ -15,7 +15,7 @@ Because Bing Videos is like ordering a pizza and getting a discount for salad dr
 
 ## 🛠 Installation  
 
-1. **Download This Game-Changer**: Clone or download this *masterpiece of coding genius*.  
+1. **Download This Game-Changer**: Clone or download this *masterpiece of coding genius* [Latest Release here](https://github.com/DanG115/Bing-Video-Redirector/releases/tag/v2.0.0).  
 2. **Enter Developer Mode**: Head to `chrome://extensions` (or `edge://extensions` if you like to live dangerously) and toggle Developer Mode like you're flipping a light switch.  
 3. **Unleash the Beast**: Click "Load Unpacked" and point it at this repo folder.  
 4. **Enjoy the Ride**: Let this extension do its thing while you bask in its magnificence.  
