@@ -50,7 +50,7 @@ Because Bing Videos is the equivalent of your GPS telling you to "Turn left" int
 ---
 ### 🤷‍♂️ Why Isn’t This on the Chrome or Edge Web Store?  
 
-Because I can’t be asked to go through the process. Between creating this extension and filling out forms, I chose the fun option. You're welcome.  
+Because I can’t be asked to go through the process. Between creating this extension, I chose the fun option. You're welcome.  
 
 ---
 
