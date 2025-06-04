@@ -1,73 +1,65 @@
-#  Bing? Nah. Straight to YouTube!   
+# Bing2YT – Direct YouTube Redirect from Bing Videos
 
-Because Bing Videos is like ordering a pizza and getting a discount for salad dressing. This extension saves you from Bing’s labyrinth and catapults you straight to YouTube like a magician pulling a rabbit out of a hat—minus the confusion. Install it now and tell Bing, "It's not me; it's you."  
-
----
-
-## ✨ Features  
-
-- ** Instant Freedom**: Bing Videos? Never heard of it.  
-- ** One-Click Toggle**: Feel like exploring chaos? Disable it. Prefer order? Enable it. Either way, it’s fun.  
-- ** Pure Spite Technology™**: Because life’s too short to let Bing slow you down.  
-- ** Blazing Fast Redirects**: Blink, and you’re on YouTube. Unless you’re superhuman, you won’t even notice the transition.  
+**Bing2YT** is a browser extension that redirects YouTube links from Bing video search results directly to YouTube, bypassing Bing’s built-in video player.
 
 ---
 
-## 🛠 Installation  
+## Features
 
-1. **Download This Game-Changer**: Clone or download this *masterpiece of coding genius* [Latest Release here](https://github.com/DanG115/Bing-Video-Redirector/releases/tag/v2.0.0).  
-2. **Enter Developer Mode**: Head to `chrome://extensions` (or `edge://extensions` if you like to live dangerously) and toggle Developer Mode like you're flipping a light switch.  
-3. **Unleash the Beast**: Click "Load Unpacked" and point it at this repo folder.  
-4. **Enjoy the Ride**: Let this extension do its thing while you bask in its magnificence.  
-
----
-
-## 🧙‍♂️ How It Works  
-
-1. **Stumble Into Bing Videos**: I know, it happens.  
-2. **Click on a YouTube Link**: Bing tries to keep you in its weird little playground.  
-3. **BOOM!** You’re teleported to YouTube faster than a toddler spotting sweets in a store.  
+- **Direct YouTube Access**: Automatically skips Bing’s video overlay for YouTube links.  
+- **Toggle Control**: Easily enable or disable the redirect behavior at any time.  
+- **Lightweight**: Simple, fast, and built with minimal overhead.  
+- **Open Source**: Code is publicly available for transparency and community review.
 
 ---
 
-## 🤔 FAQs  
+## Installation
 
-**Why does this exist?**  
-Because Bing Videos is like going to a fancy restaurant and getting microwaved leftovers. We deserve better.  
+### Chrome / Edge (Manual)
 
-**Does it work on all YouTube links on Bing Videos?**  
-Yes. It’s like a heat-seeking missile for YouTube URLs.  
+1. **Download the Extension**  
+   Get the latest build from the [Releases Page](https://github.com/DanG115/Bing-Video-Redirector/releases/tag/v2.0.0).
 
-**What if I want to stay on Bing Videos?**  
-Why would you do that? But sure, you can disable the extension—no judgment. (Okay, maybe a little judgment.)  
+2. **Enable Developer Mode**  
+   Visit `chrome://extensions` or `edge://extensions` and toggle Developer Mode.
 
----
-
-## 🔥 Why Should You Care?  
-
-Because Bing Videos is the equivalent of your GPS telling you to "Turn left" into a lake. Why take the long route when you can go straight to YouTube with zero hassle?  
-
----
-###  Why Isn’t This on the Chrome or Edge Web Store?  
-
-Because I can’t be asked to go through the process. Between filling in the forms and configuration, I chose the fun option. You're welcome.  
+3. **Load the Extension**  
+   Click “Load unpacked” and select the extracted extension folder.
 
 ---
 
-## 🛡️ Is This Safe?  
+## Coming Soon
 
-Absolutely. The only casualty here is Bing’s ego.  
-
----
-
-## 🌟 Support  
-
-Love it? Laugh at it? ⭐ Star it.  
-Got a Bing-dodging friend? Share it. Let’s rescue the world, one redirect at a time.  
+Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store. Once approved, installation on Edge will be available directly from the store.
 
 ---
 
-## 👨‍💻 Author  
+## How It Works
 
-Just someone who enjoys cat videos without Bing playing the middleman.  
+1. Click a YouTube link from Bing Video results.  
+2. Instead of opening in Bing’s video player, the link redirects directly to the YouTube website.
 
+---
+
+## FAQ
+
+**Why does this extension exist?**  
+To provide a cleaner, more direct experience when opening YouTube links from Bing.
+
+**Is it safe?**  
+Yes. The extension does not collect data or interfere with unrelated browsing.
+
+**Will this be available on the Chrome Web Store?**  
+Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store.
+
+---
+
+## Support
+
+If you find the extension helpful, please consider starring the project on [GitHub](https://github.com/DanG115/Bing2YT) or sharing it with others.
+
+---
+
+## Author
+
+Created by [DanG115](https://github.com/DanG115). Contributions and feedback are welcome.
