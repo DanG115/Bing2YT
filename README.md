@@ -3,6 +3,8 @@
 **Bing2YT** is a browser extension that redirects YouTube links from Bing video search results directly to YouTube, bypassing Bing’s built-in video player.
 
 ---
+![Bing2YT_Logo_128](https://github.com/user-attachments/assets/3d2a3a96-1b04-43fb-9b9a-9940dfb54daf)
+---
 
 ## Features
 
