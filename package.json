@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/chrome": "^0.0.326",
+    "cpx": "^1.5.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npm run build:css && tsc && cpx \"src/manifest.json\" extension/dist && cpx \"src/assets/**/*\" extension/dist/assets && cpx \"src/popup/**/*\" extension/dist/popup  && cpx \"src/settings/**/*\" extension/dist/settings",
+    "build:css": "npx tailwindcss -i ./src/styles/index.css -o ./extension/dist/styles/output.css --minify"
+  }
+}

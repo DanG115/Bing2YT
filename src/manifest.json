@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Bing2YT",
+  "version": "3.0",
+  "description": "Redirects Bing video results to YouTube",
+  "permissions": ["storage", "activeTab", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.bing.com/videos*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "assets/Bing2YT_Logo_16.png",
+      "48": "assets/Bing2YT_Logo_48.png",
+      "128": "assets/Bing2YT_Logo_128.png"
+    }
+  }
+}
