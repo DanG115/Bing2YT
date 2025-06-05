@@ -17,6 +17,7 @@ Thumbs.db
 
 # Build output
 dist/
+compressed/
 build/
 out/
 *.js

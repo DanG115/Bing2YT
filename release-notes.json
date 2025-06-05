@@ -1,0 +1,12 @@
+{
+    "notes":{
+        "3.0.1": {
+            "date": "05/06/2025",
+            "changes": [
+                "Resolved popup display and interaction issues (popup.ts, popup.html)",
+                "Corrected settings behavior and layout problems (settings.ts, settings.html)",
+                "Minor updates to manifest.json to reflect the patch version"
+            ]
+        }
+    }
+}
