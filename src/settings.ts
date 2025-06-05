@@ -4,7 +4,6 @@ interface Settings {
   fontFamily: string;
   devMode: boolean;
   version: string;
-  releaseNotes: string;
 }
 
 const DEFAULT_SETTINGS: Settings = {
@@ -12,8 +11,7 @@ const DEFAULT_SETTINGS: Settings = {
   textSize: 16,
   fontFamily: "Inter, 'Segoe UI', Arial, sans-serif",
   devMode: false,
-  version: "3.0",
-  releaseNotes: "- Initial release",
+  version: "3.0"
 };
 
 const modeSelect = document.getElementById("modeSelect") as HTMLSelectElement;
@@ -22,10 +20,7 @@ const textSizeValue = document.getElementById("textSizeValue")!;
 const fontSelect = document.getElementById("fontSelect") as HTMLSelectElement;
 const devModeToggle = document.getElementById("devModeToggle") as HTMLInputElement;
 const devDisclaimer = document.getElementById("devDisclaimer")!;
-const checkUpdatesBtn = document.getElementById("checkUpdatesBtn") as HTMLButtonElement;
-const updateStatus = document.getElementById("updateStatus")!;
 const versionNumber = document.getElementById("versionNumber")!;
-const releaseNotes = document.getElementById("releaseNotes")!;
 
 function applyMode(mode: "light" | "dark") {
   if (mode === "dark") {
@@ -56,7 +51,6 @@ function updateUI(settings: Settings) {
   applyMode(settings.mode);
   devDisclaimer.style.display = settings.devMode ? "block" : "none";
   versionNumber.textContent = settings.version;
-  releaseNotes.textContent = settings.releaseNotes;
 }
 
 async function init() {
@@ -83,28 +77,6 @@ async function init() {
     const isDev = devModeToggle.checked;
     devDisclaimer.style.display = isDev ? "block" : "none";
     saveSettings({ devMode: isDev });
-  });
-
-  checkUpdatesBtn.addEventListener("click", async () => {
-   updateStatus.textContent = "Checking for updates...";
-   checkUpdatesBtn.disabled = true;
-
-    await new Promise((res) => setTimeout(res, 1500));
-
-    const latestVersion = "1.1";
-    const latestNotes = "- Added dark mode\n- Added settings page\n- Bug fixes";
-
-    const currentVersion = (await loadSettings()).version;
-
-    if (currentVersion === latestVersion) {
-      updateStatus.textContent = "You are up to date!";
-    } else {
-      updateStatus.textContent = `New version ${latestVersion} available! Updating...`;
-      saveSettings({ version: latestVersion, releaseNotes: latestNotes });
-      updateUI({ ...await loadSettings(), version: latestVersion, releaseNotes: latestNotes });
-    }
-
-    checkUpdatesBtn.disabled = false;
   });
 }
 
