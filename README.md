@@ -20,7 +20,7 @@
 ### Chrome / Edge (Manual)
 
 1. **Download the Extension**  
-   Get the latest build from the [Releases Page](https://github.com/DanG115/Bing-Video-Redirector/releases/tag/v3.0.0).
+   Get the latest build from the [Releases Page](https://github.com/DanG115/Bing-Video-Redirector/releases/tag/v3.0.1).
 
 2. **Enable Developer Mode**  
    Visit `chrome://extensions` or `edge://extensions` and toggle Developer Mode.
