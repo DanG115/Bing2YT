@@ -1,3 +1,10 @@
+> ⚠️⚠️ **IMPORTANT NOTICE — EXTENSION CURRENTLY BROKEN** ⚠️⚠️  
+>
+> ❗️ The current version of **Bing2YT** (v3.0.0 and below) is **no longer working** due to a recent **Bing video UI update**.  
+> ✅ A fixed and updated version (v4.0.0) has already been **submitted to the Microsoft Edge Add-ons store** and is currently under review.
+>
+> In the meantime, I will be publishing a **temporary working version** here shortly for manual install via **Developer Mode**.
+
 # Bing2YT – Direct YouTube Redirect from Bing Videos
 
 ![Bing2YT Logo](https://github.com/user-attachments/assets/3d2a3a96-1b04-43fb-9b9a-9940dfb54daf)
