@@ -12,10 +12,6 @@
     "typescript": "^5.8.3"
   },
   "scripts": {
-<<<<<<< Updated upstream
-    "build": "npm run build:css && tsc && cpx \"src/manifest.json\" extension/dist && cpx \"src/assets/**/*\" extension/dist/assets && cpx \"src/popup/**/*\" extension/dist/popup  && cpx \"src/settings/**/*\" extension/dist/settings",
-    "build:css": "npx tailwindcss -i ./src/styles/index.css -o ./extension/dist/styles/output.css --minify"
-=======
     "clean": "rimraf extension",
     "build:ts": "tsc",
     "build:css": "tailwindcss -i ./src/styles/index.css -o ./extension/dist/content/styles/output.css --minify",
@@ -25,6 +21,5 @@
   },
   "dependencies": {
     "@rollup/plugin-typescript": "^12.3.0"
->>>>>>> Stashed changes
   }
 }

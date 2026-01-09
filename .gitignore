@@ -33,3 +33,7 @@ coverage/
 *.tmp
 *.swp
 *.swo
+
+# folders
+previous-versions/
+compressed/
