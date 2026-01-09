@@ -1,13 +1,30 @@
 {
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@types/chrome": "^0.0.326",
     "cpx": "^1.5.0",
     "postcss": "^8.5.3",
+    "rollup": "^2.79.2",
     "tailwindcss": "^3.4.17",
+    "tslib": "^2.8.1",
     "typescript": "^5.8.3"
   },
   "scripts": {
+<<<<<<< Updated upstream
     "build": "npm run build:css && tsc && cpx \"src/manifest.json\" extension/dist && cpx \"src/assets/**/*\" extension/dist/assets && cpx \"src/popup/**/*\" extension/dist/popup  && cpx \"src/settings/**/*\" extension/dist/settings",
     "build:css": "npx tailwindcss -i ./src/styles/index.css -o ./extension/dist/styles/output.css --minify"
+=======
+    "clean": "rimraf extension",
+    "build:ts": "tsc",
+    "build:css": "tailwindcss -i ./src/styles/index.css -o ./extension/dist/content/styles/output.css --minify",
+    "build:static": "cpx \"src/manifest.json\" extension/dist/ && cpx \"src/content/assets/**/*\" extension/dist/assets && cpx \"src/content/pages/**/*\" extension/dist/content/pages/",
+    "build:bundle": "rollup -c",
+    "build": "npm run build:css && npm run build:ts && npm run build:bundle && npm run build:static"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^12.3.0"
+>>>>>>> Stashed changes
   }
 }

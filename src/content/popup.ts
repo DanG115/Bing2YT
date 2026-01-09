@@ -1,23 +1,35 @@
+let popupDeveloperMode = false;
+
+function log(...args: any[]) {
+  if (popupDeveloperMode) {
+    console.log("[Bing2YT Popup]", ...args);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("redirectToggle") as HTMLInputElement | null;
   const status = document.getElementById("toggleStatus") as HTMLElement | null;
   const openSettingsBtn = document.getElementById("openSettingsBtn");
 
-  if (!toggle || !status) {
-    console.error("Toggle or status element not found in popup.");
-    return;
-  }
+  if (!toggle || !status) return;
 
-  chrome.storage.sync.get("redirectEnabled", (data) => {
+  chrome.storage.sync.get(["redirectEnabled", "devMode"], (data) => {
     const enabled = data.redirectEnabled === true;
+    popupDeveloperMode = data.devMode === true;
+
     toggle.checked = enabled;
     status.textContent = enabled ? "On" : "Off";
+
+    log("Popup loaded, redirect enabled:", enabled);
+    log("Developer mode:", popupDeveloperMode);
   });
 
   toggle.addEventListener("change", () => {
     const enabled = toggle.checked;
     chrome.storage.sync.set({ redirectEnabled: enabled }, () => {
       status.textContent = enabled ? "On" : "Off";
+
+      log("Redirect toggle changed to:", enabled);
 
       chrome.tabs.query({}, (tabs) => {
         for (const tab of tabs) {
@@ -34,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (openSettingsBtn) {
     openSettingsBtn.addEventListener("click", () => {
-      chrome.tabs.create({ url: chrome.runtime.getURL("settings/settings.html") });
+      chrome.tabs.create({ url: chrome.runtime.getURL("content/pages/settings.html") });
     });
   }
 
@@ -52,4 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.style.fontFamily = settings.fontFamily;
     }
   });
+});
+
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === "sync" && changes.devMode) {
+    popupDeveloperMode = changes.devMode.newValue;
+    log("Developer mode changed in popup:", popupDeveloperMode);
+  }
 });

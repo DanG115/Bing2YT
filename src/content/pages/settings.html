@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bing2YT Settings</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="../styles/output.css" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-gradient-to-br from-sky-50 via-white to-sky-100 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-gray-900 dark:text-gray-100 font-sans transition-all duration-500 flex items-center justify-center p-6">
+
+  <div class="relative max-w-3xl w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-2xl p-10 space-y-10 border border-gray-200 dark:border-gray-700 transition-all duration-500">
+
+    <div class="flex flex-col items-center space-y-3">
+      <img src="../assets/Bing2YT_LogoN_128.png" alt="Bing2YT Logo" class="w-16 h-16 rounded-xl shadow-md" />
+      <div class="text-center">
+        <h1 class="text-4xl font-extrabold text-blue-700 dark:text-blue-400 tracking-tight">Bing2YT Settings</h1>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Customize your YouTube search experience on Bing</p>
+      </div>
+    </div>
+
+    <!-- APPEARANCE SECTION -->
+    <div class="space-y-6">
+      <div class="flex items-center space-x-2 mb-4">
+        <i class="fa-solid fa-palette text-blue-600 dark:text-blue-400 text-lg"></i>
+        <h2 class="text-lg font-bold text-blue-700 dark:text-blue-400">Appearance</h2>
+      </div>
+
+      <!-- Theme -->
+      <div class="space-y-2 pl-6">
+        <label for="modeSelect" class="block font-semibold text-gray-800 dark:text-gray-200 flex items-center">
+          <i class="fa-solid fa-moon text-gray-600 dark:text-gray-400 mr-2 w-4"></i>
+          Theme Mode
+        </label>
+        <p class="text-xs text-gray-600 dark:text-gray-400">Choose between light mode for daytime and dark mode for reduced eye strain.</p>
+        <select id="modeSelect" class="w-full rounded-lg border border-gray-300 dark:border-gray-700 p-2.5 bg-white/70 dark:bg-gray-700/60 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+          <option value="light">Light (default)</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- BEHAVIOUR SECTION -->
+    <div class="space-y-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+      <div class="flex items-center space-x-2 mb-4">
+        <i class="fa-solid fa-gears text-blue-600 dark:text-blue-400 text-lg"></i>
+        <h2 class="text-lg font-bold text-blue-700 dark:text-blue-400">Behaviour</h2>
+      </div>
+
+      <!-- YouTube Injection Option -->
+      <div class="space-y-2 pl-6">
+        <label for="ytInjectionOption" class="block font-semibold text-gray-800 dark:text-gray-200 flex items-center">
+          <i class="fa-brands fa-youtube text-red-600 mr-2 w-4"></i>
+          YouTube Injection Option
+        </label>
+        <p class="text-xs text-gray-600 dark:text-gray-400">Choose how the YouTube search button appears on Bing search results. Button style is prominent, Icon style is subtle and compact.</p>
+        <select id="ytInjectionOption" class="w-full rounded-lg border border-gray-300 dark:border-gray-700 p-2.5 bg-white/70 dark:bg-gray-700/60 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+          <option value="button">Button (default) - Visible and clickable</option>
+          <option value="icon">Icon - Subtle and space-efficient</option>
+        </select>
+        <p class="text-xs text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/30 px-3 py-2 rounded border border-amber-200 dark:border-amber-700">⚠️ Changes require a page reload to take effect.</p>
+      </div>
+    </div>
+
+    <!-- YouTube Redirect Option -->
+    <div class="space-y-2 pl-6">
+      <label for="ytRedirectOption" class="flex items-center font-semibold text-gray-800 dark:text-gray-200">
+        <i class="fa-brands fa-youtube text-red-600 mr-2 w-4"></i>
+        YouTube Redirect Behavior
+      </label>
+
+      <p class="text-xs text-gray-600 dark:text-gray-400">
+        Choose how Bing results are redirected to YouTube.
+        <span class="block mt-1">
+           <strong>Banner</strong> displays a toast notification during the redirection to the video.
+           <strong>Page</strong> opens a redirect page first, then automatically forwards you to the YouTube video.
+        </span>
+      </p>
+
+      <select id="ytRedirectOption"
+              class="w-full rounded-lg border border-gray-300 dark:border-gray-700
+                    p-2.5 bg-white/70 dark:bg-gray-700/60
+                    text-gray-900 dark:text-gray-100
+                    focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+                    transition-all">
+        <option value="toast">Banner (default)</option>
+        <option value="page">Page Redirect</option>
+      </select>
+    </div>
+
+    <!-- DEVELOPER SECTION -->
+    <div class="space-y-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+      <div class="flex items-center space-x-2 mb-4">
+        <i class="fa-solid fa-code text-blue-600 dark:text-blue-400 text-lg"></i>
+        <h2 class="text-lg font-bold text-blue-700 dark:text-blue-400">Developer</h2>
+      </div>
+
+      <!-- Dev Mode -->
+      <div class="space-y-3 pl-6">
+        <div class="flex items-start space-x-3 bg-blue-50 dark:bg-gray-700/40 p-4 rounded-lg border border-blue-200 dark:border-gray-600 transition-all">
+          <input type="checkbox" id="devModeToggle" class="h-5 w-5 accent-blue-600 rounded focus:ring-2 focus:ring-blue-400 mt-0.5 flex-shrink-0" />
+          <div class="flex-1">
+            <label for="devModeToggle" class="font-semibold select-none text-blue-800 dark:text-blue-300 block">Enable Developer Mode</label>
+            <p class="text-xs text-blue-700 dark:text-blue-400 mt-1">Activates console logging for debugging and troubleshooting.</p>
+          </div>
+        </div>
+
+        <div id="devDisclaimer" class="hidden text-blue-700 dark:text-blue-300 text-sm italic px-4 py-3 rounded-lg border border-blue-300 dark:border-blue-600 bg-blue-100/70 dark:bg-blue-900/30">
+          ⚠️ Developer Mode is enabled. Console logging is active for debugging purposes.
+        </div>
+      </div>
+    </div>
+
+    <!-- UPDATES & INFO SECTION -->
+    <div class="space-y-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+      <div class="flex items-center space-x-2 mb-4">
+        <i class="fa-solid fa-info-circle text-blue-600 dark:text-blue-400 text-lg"></i>
+        <h2 class="text-lg font-bold text-blue-700 dark:text-blue-400">Updates & Info</h2>
+      </div>
+
+      <!-- Update Button -->
+      <div class="pl-6 space-y-3">
+        <button id="checkUpdatesBtn" disabled class="w-full bg-gradient-to-r from-gray-400 to-gray-300 dark:from-gray-600 dark:to-gray-700 text-gray-600 dark:text-gray-400 font-semibold py-2.5 rounded-lg shadow-md transition-all cursor-not-allowed opacity-60">
+          <i class="fa-solid fa-rotate-right mr-2"></i>Check for Updates
+        </button>
+        <p class="text-center text-sm text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/30 px-3 py-2 rounded border border-amber-200 dark:border-amber-700"><strong>Temporarily unavailable.</strong></p>
+      </div>
+
+      <!-- Version -->
+      <div class="pl-6 text-center">
+        <p class="text-gray-600 dark:text-gray-400 text-sm">
+          <strong>Version:</strong> <span id="versionNumber" class="font-mono text-gray-800 dark:text-gray-200"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="../settings.js"></script>
+</body>
+</html>

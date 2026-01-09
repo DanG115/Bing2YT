@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bing2YT Changelog</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="../styles/output.css" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-sky-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300 p-6">
+<!--BEFORE PUBLISH: CHANGE FONT STORAGE SO IT DEFAULTS BACK TO ARIAL!"!"!-->
+  <div class="max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-6">
+    <h1 class="text-2xl font-bold text-blue-700 dark:text-blue-400">Bing2YT Changelog</h1>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Your current version: <span id="currentVersion" class="font-mono"></span></p>
+
+   <div id="changelogContent" class="space-y-4">
+    <div class="border-l-4 border-blue-500 pl-4 py-2">
+      <p class="font-semibold">v4.0.4 - 12-12-2025</p>
+      <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+        <li>Fixed redirect not triggering on certain Bing video pages.</li>
+        <li>Settings page UI reworked (dark theme).</li>
+        <li>Improved compatibility with the latest Bing UI changes.</li>
+        <li>Changelog page now opens automatically on extension update.</li>
+        <li>Welcome page now opens automatically on extension install.</li>
+        <li>Minor performance optimisations and bug fixes.</li>
+      </ul>
+    </div>
+
+    <div class="border-l-4 border-green-500 pl-4 py-2">
+      <p class="font-semibold">v4.0.3 - 28-11-2025</p>
+      <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+        <li>Enhanced YouTube redirect detection for more reliable performance.</li>
+        <li>Added video info tooltips for Bing video tiles.</li>
+        <li>Fixed settings saving issue for some users.</li>
+        <li>Introduced a bug reporting system via forms.</li>
+        <li>Redesigned the YouTube search button and UI.</li>
+        <li>Redirect system now retries multiple times if the video URL isn't immediately found.</li>
+      </ul>
+    </div>
+  </div>
+
+
+    <button id="closeChangelog" class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded shadow transition">
+      Close
+    </button>
+  </div>
+
+  <div class="mt-6 text-xs text-center text-slate-500 dark:text-slate-400"> 
+    <a href="https://www.buymeacoffee.com/DanG115" target="_blank" class="text-[#f31f2d] hover:text-red-700 font-semibold dark:text-[#239dad] dark:hover:text-sky-400">
+      <i class="fa-solid fa-mug-hot"></i> Support my work <i class="fa-solid fa-mug-hot"></i>
+    </a>
+  </div>
+
+  <script src="../changelog.js"></script>
+</body>
+</html>

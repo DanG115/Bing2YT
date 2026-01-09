@@ -1,12 +1,16 @@
-{
-  "compilerOptions": {
-    "target": "esnext",
+{ 
+  "compilerOptions":{ 
+    "target": "esnext", 
     "module": "esnext",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "rootDir": "./src",
-    "outDir": "extension/dist",
-    "removeComments": true,
-    "moduleResolution": "classic"
-  },
-  "exclude": ["extension/dist"]
+    "lib": [
+      "dom", 
+      "dom.iterable", 
+      "esnext" ], 
+    "rootDir": "./src", 
+    "outDir": "extension/dist", 
+    "removeComments": true, 
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }, 
+    "exclude": ["extension/dist"] 
 }
