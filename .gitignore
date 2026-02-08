@@ -20,12 +20,12 @@ build/
 src/
 compressed/
 previous-versions/
-package-lock.json
+*.zip
 
-# folders
-previous-versions/
-compressed/
-
-#files
+# Other configs to ignore
 rollup.config.js
 tailwind.config.js
+package-lock.json
+package.json
+tsconfig.json
+.gitignore
