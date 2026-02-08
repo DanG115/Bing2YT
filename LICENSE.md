@@ -1,6 +1,6 @@
 # Bing2YT Early Access License
 
-Copyright (c) 2025 Dan
+Copyright (c) 2026 Dan
 
 This repository provides **early-access builds** of Bing2YT. These builds are **pre-release, wrapped versions** intended solely for testing, feedback, and preview purposes.
 
