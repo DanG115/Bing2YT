@@ -73,7 +73,7 @@ Yes. Bing2YT does not collect user data or interfere with unrelated browsing.
 GitHub builds are published early to gather feedback and test changes before a wider store release.
 
 **Will this be available on the Chrome Web Store?**  
-Currently, Bing2YT is only available on the Microslop Edge Add-ons Store. There are no plans to release it on the Chrome Web Store at this time.
+Currently, Bing2YT is only available on the Microsoft Edge Add-ons Store. There are no plans to release it on the Chrome Web Store at this time.
 
 ---
 
