@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bing2YT Settings</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="../styles/output.css" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-sky-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300 p-6">
+
+  <div class="max-w-md mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-6">
+    <h1 class="text-2xl font-bold text-blue-700 dark:text-blue-400">Bing2YT Settings</h1>
+
+    <div>
+      <label for="modeSelect" class="block mb-1 font-semibold">Theme Mode</label>
+      <select id="modeSelect" class="w-full rounded border border-gray-300 dark:border-gray-700 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100">
+        <option value="light">Light (default)</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="textSizeRange" class="block mb-1 font-semibold">Text Size (<span id="textSizeValue">16</span>px)</label>
+      <input id="textSizeRange" type="range" min="12" max="24" step="1" value="16" class="w-full" />
+    </div>
+
+    <div>
+      <label for="fontSelect" class="block mb-1 font-semibold">Font Family</label>
+      <select id="fontSelect" class="w-full rounded border border-gray-300 dark:border-gray-700 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100">
+        <option value="Inter, 'Segoe UI', Arial, sans-serif">Inter (default)</option>
+        <option value="'Courier New', Courier, monospace">Courier New (monospace)</option>
+        <option value="'Times New Roman', Times, serif">Times New Roman (serif)</option>
+        <option value="'Comic Sans MS', cursive, sans-serif">Comic Sans MS (fun!)</option>
+      </select>
+    </div>
+
+    <div class="flex items-center space-x-2">
+      <input type="checkbox" id="devModeToggle" class="h-5 w-5 text-blue-600 rounded" />
+      <label for="devModeToggle" class="font-semibold select-none">Enable Development Mode</label>
+    </div>
+
+    <div id="devDisclaimer" class="text-red-600 text-sm italic px-4 py-2 border border-red-400 rounded bg-red-100 dark:bg-red-900 dark:border-red-700 hidden">
+      ⚠️ Development mode enables experimental features which may be unstable.
+    </div>
+
+    <!--<button id="checkUpdatesBtn" class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded shadow transition">
+      Check for Updates
+    </button>
+    <p id="updateStatus" class="mt-2 text-center text-sm text-gray-600 dark:text-gray-400"></p>
+  -->
+    <div class="mt-6 border-t border-gray-300 dark:border-gray-700 pt-4">
+      <p><strong>Version:</strong> <span id="versionNumber" class="font-mono">3.0</span></p>
+      <!--<h3 class="mt-2 text-lg font-semibold">Release Notes</h3>-->
+      <pre id="releaseNotes" class="whitespace-pre-wrap bg-gray-100 dark:bg-gray-700 rounded p-3 mt-1 text-sm font-mono"></pre>
+    </div>
+  </div>
+
+  <script src="../settings.js"></script>
+</body>
+</html>

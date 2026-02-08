@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bing2YT</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="../styles/output.css" rel="stylesheet" />
+
+  </head>
+  <body
+    class="m-0 min-w-[320px] min-h-[220px] flex items-center justify-center h-screen
+           bg-gradient-to-br from-[#fdf0f0] to-[#e1f4f9]
+           dark:bg-gradient-to-br dark:from-[#0d1b23] dark:to-[#13252f]
+           font-sans"
+  >
+    <div
+      class="bg-white bg-opacity-70 dark:bg-slate-800 dark:bg-opacity-80
+             rounded-xl shadow-lg shadow-[#f31f2d]/20 dark:shadow-[#239dad]/30
+             backdrop-blur-md border border-white border-opacity-30 dark:border-slate-600
+             p-6 w-80 flex flex-col items-center relative"
+    >
+      <!-- Top Row -->
+      <div class="flex w-full justify-between items-center mb-2">
+        <span class="flex items-center gap-2 font-bold text-lg tracking-tight text-[#f31f2d] dark:text-[#239dad]">
+          <img src="../../assets/logo.svg" alt="Logo" class="w-5 h-5" />
+          Bing2YT
+        </span>
+        <div class="flex gap-3">
+          <a href="https://github.com/DanG115" target="_blank" title="GitHub">
+            <i
+              class="fab fa-github text-xl text-slate-500 hover:text-[#f31f2d] transition-colors dark:text-slate-400 dark:hover:text-[#239dad]"
+            ></i>
+          </a>
+          <a href="https://forms.office.com/r/qA8pnubEAE" target="_blank" title="Feedback">
+            <i
+              class="fa fa-clipboard text-xl text-slate-500 hover:text-[#f31f2d] transition-colors dark:text-slate-400 dark:hover:text-[#239dad]"
+            ></i>
+          </a>
+          <i
+            class="fas fa-cog text-xl text-slate-400 hover:text-[#f31f2d] transition-colors cursor-pointer
+                   dark:text-slate-500 dark:hover:text-[#239dad]"
+            id="openSettingsBtn"
+            title="Settings"
+          ></i>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div
+        class="w-full h-px bg-gradient-to-r from-[#f31f2d] via-slate-300 to-[#239dad] mb-3
+               dark:via-slate-600"
+      ></div>
+
+      <!-- Description -->
+      <div class="text-sm text-slate-600 mb-4 text-center px-1 dark:text-slate-400">
+        Instantly skip Bing's embedded player and go directly to the original YouTube video
+      </div>
+
+      <!-- Redirect Toggle -->
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-xs text-slate-500 font-medium dark:text-slate-400">Redirect</span>
+        <label class="relative inline-block w-12 h-7">
+          <input type="checkbox" id="redirectToggle" class="opacity-0 w-0 h-0 peer" />
+          <span
+            class="absolute cursor-pointer top-0 left-0 right-0 bottom-0
+                   bg-gradient-to-r from-[#239dad] to-[#f31f2d] rounded-full
+                   transition-colors duration-300 peer-checked:from-green-400 peer-checked:to-green-600"
+          ></span>
+          <span
+            class="absolute content-[''] h-5 w-5 left-1 bottom-1
+                   bg-white rounded-full transition-transform duration-300 shadow-md
+                   peer-checked:translate-x-5"
+          ></span>
+        </label>
+        <span id="toggleStatus" class="text-xs text-slate-400 dark:text-slate-500">Off</span>
+      </div>
+
+      <!-- Credits -->
+      <div
+        class="mt-2 text-[11px] text-slate-400 text-center w-full dark:text-slate-500"
+      >
+        &copy; 2026
+        <a
+          href="https://github.com/DanG115"
+          class="text-[#f31f2d] hover:text-red-700 font-semibold dark:text-[#239dad] dark:hover:text-sky-400"
+          target="_blank"
+        >
+          DanG115
+        </a>
+      </div>
+
+    <script src="../popup.js"></script>
+  </body>
+</html>
