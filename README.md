@@ -3,7 +3,7 @@
 **Bing2YT** is a browser extension that redirects YouTube links from Bing video search results directly to YouTube, bypassing Bing’s built-in video player.
 
 ---
-![Bing2YT_Logo_128](https://github.com/user-attachments/assets/3d2a3a96-1b04-43fb-9b9a-9940dfb54daf)
+<img width="1400" height="560" alt="Bing2YT_marketing_spotlight" src="https://github.com/user-attachments/assets/f5fea01e-1d28-40a3-8960-53ff2ba6a222" />
 ---
 
 ## Features
@@ -44,13 +44,9 @@ Once a version is considered stable, it is released on the extension store.
 
 ---
 
-## Store Availability
+## Coming Soon
 
-Bing2YT is currently under review for listing on the **Microsoft Edge Add-ons Store**.
-
-Once approved, the store version will offer:
-- Automatic updates
-- A more stable release cadence
+Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store. Once approved, installation on Edge will be available directly from the store.
 
 ---
 
@@ -73,23 +69,13 @@ Yes. Bing2YT does not collect user data or interfere with unrelated browsing.
 GitHub builds are published early to gather feedback and test changes before a wider store release.
 
 **Will this be available on the Chrome Web Store?**  
-At this time, Bing2YT is planned for release on the Microsoft Edge Add-ons Store.
+Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store.
 
 ---
 
-## License & Usage
+## Support
 
-This repository distributes **compiled extension builds** for evaluation and personal use.  
-Redistribution, rebranding, or republishing of these builds is not permitted.  
-See the LICENSE file for details.
-
----
-
-## Support & Feedback
-
-If you encounter issues or have suggestions, feedback is welcome via GitHub Issues.
-
-If you find the extension useful, consider starring the project or sharing it with others.
+If you find the extension helpful, please consider starring the project on [GitHub](https://github.com/DanG115/Bing2YT) or sharing it with others.
 
 ---
 
