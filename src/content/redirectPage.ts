@@ -1,6 +1,13 @@
 const Videoparams = new URLSearchParams(window.location.search);
 const videoId = Videoparams.get('v') || Videoparams.get('videoId');
 const url = Videoparams.get('url');
+const themeMode = chrome.storage.sync.get(['mode'], (result) => {
+    if (result.mode === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+});
 
 let youtubeUrl = '';
 if (url) {

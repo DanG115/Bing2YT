@@ -6,6 +6,7 @@ import { BING2YT_CONFIG } from "../config";
 import { processRedirect } from "../redirect/redirector";
 import { isBingVideoPage, logDebug } from "../utils";
 
+
 export const initialiseBing2YT = () => {
   if (!window.location.href.includes("bing.com/videos")) return;
 

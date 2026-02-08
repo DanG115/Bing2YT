@@ -41,13 +41,24 @@ export const processRedirect = (event?: Event) => {
       lastIframeSrc = iframe.src;
       logDebug(`Redirecting to YouTube video with ID: ${videoId}`);
       bing2ytState.redirectingNow = true;
-      chrome.runtime.sendMessage({
-        action: "openBing2YT",
-        videoId
-      });   
-      //showRedirectToast(); // UPDATE_4.0.5: simplified toast call (no message param)
-      //window.location.href = `${BING2YT_CONFIG.youtubeUrl}${videoId}`;
-      return;
+      chrome.storage.sync.get(["ytRedirectOption"], (settings) => {
+        if (settings.ytRedirectOption === "page") {
+          chrome.runtime.sendMessage({
+            action: "openBing2YT",
+            videoId
+          }); 
+        }
+        else if (settings.ytRedirectOption === "toast") {
+          showRedirectToast();
+          window.location.href = `${BING2YT_CONFIG.youtubeVideoUrl}${videoId}`;
+        }
+        else {
+          logDebug("Redirecting via toast replacement - no setting found.");
+          showRedirectToast();
+          window.location.href = `${BING2YT_CONFIG.youtubeVideoUrl}${videoId}`;
+          return;
+        }
+      });
     }
   }
 

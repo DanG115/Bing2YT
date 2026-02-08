@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Bing2YT",
-  "version": "4.0.4",
-  "description": "Redirects Bing video results to YouTube",
+  "version": "5.0.0",
+  "version_name": "5.0.0_Stable",
+  "description": "Instantly skip Bing's embedded player and go directly to the original YouTube video.",
   "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
   "background": {
@@ -15,10 +16,15 @@
       "run_at": "document_end"
     }
   ],
+  "icons": {
+    "16": "assets/Bing2YT_LogoN_16.png",
+    "32": "assets/Bing2YT_LogoN_32.png",
+    "48": "assets/Bing2YT_LogoN_48.png",
+    "128": "assets/Bing2YT_LogoN_128.png"
+  },
   "web_accessible_resources": [
   {
     "resources": [
-      "index.module.js",
       "content/**/*.js"
     ],
     "matches": ["<all_urls>"]

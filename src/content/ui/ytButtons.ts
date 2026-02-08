@@ -61,7 +61,7 @@ export const createYouTubeSearchButton = (): HTMLElement => {
     </svg>
     Search on YouTube`;
 
-  Object.assign(btn.style, {
+    Object.assign(btn.style, {
     marginLeft: "8px",
     padding: "6px 12px",
     backgroundColor: "#fff",
@@ -77,6 +77,7 @@ export const createYouTubeSearchButton = (): HTMLElement => {
     transition: "all 0.25s ease",
     boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
   });
+  btn.type = "button";
 
   btn.onmouseover = () => {
     btn.style.backgroundColor = "#FF0000";
@@ -92,9 +93,9 @@ export const createYouTubeSearchButton = (): HTMLElement => {
 
   btn.onclick = () => {
     const query = (document.querySelector(BING2YT_CONFIG.YT_selectors.inputBox) as HTMLInputElement)?.value.trim();
-    if (query) {
+    if (query && query.length > 0) {
       logDebug(`Opening YouTube search for: ${query}`);
-      window.open(`${BING2YT_CONFIG.youtubeSearchUrl}${encodeURIComponent(query)}`);
+      window.location.href = `${BING2YT_CONFIG.youtubeSearchUrl}${encodeURIComponent(query)}`;
     }
   };
 
@@ -157,7 +158,7 @@ export const YTSearchSlick = (): HTMLElement => {
 
     if (query) {
       logDebug(`Opening YouTube search for: ${query}`);
-      window.open(`${BING2YT_CONFIG.youtubeSearchUrl}${encodeURIComponent(query)}`);
+      window.location.href = `${BING2YT_CONFIG.youtubeSearchUrl}${encodeURIComponent(query)}`;
     }
   };
 

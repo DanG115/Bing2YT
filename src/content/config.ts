@@ -9,7 +9,7 @@ export const BING2YT_CONFIG = {
     videoTitle: "div.title[href*='youtube.com']",
     videoLink: "a[href*='youtube.com'], a.source.tosurl",
     embeddedIframe: "iframe[src*='youtube.com/embed/'], div.ep iframe[src*='youtube.com']",
-    viewSource: ".action.view_source.nofocus",
+    viewSource: "action view_source  nofocus",
     videoResult: ".dg_u, .vrhdata, [data-bm]"
   },
   Edge_selectors: {
@@ -17,6 +17,8 @@ export const BING2YT_CONFIG = {
     navContainer: ".navContainer",
     navList: "#navList"
   },
-  youtubeUrl: "https://www.youtube.com/watch?v=",
+  youtubeVideoUrl: "https://www.youtube.com/watch?v=",
+  youtubeShortsUrl: "https://www.youtube.com/shorts/", // required for future use 
   youtubeSearchUrl: "https://www.youtube.com/results?search_query="
 };
+ 

@@ -6,6 +6,12 @@ function log(...args: any[]) {
   }
 }
 
+function getSettingsVersion(callback: (version: string) => void) {
+  chrome.storage.local.get(["settingsUIVersion"], (data) => {
+    callback(data.settingsUIVersion || "old");
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("redirectToggle") as HTMLInputElement | null;
   const status = document.getElementById("toggleStatus") as HTMLElement | null;
@@ -46,7 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (openSettingsBtn) {
     openSettingsBtn.addEventListener("click", () => {
-      chrome.tabs.create({ url: chrome.runtime.getURL("content/pages/settings.html") });
+      getSettingsVersion((version) => {
+        if(version === "b"){
+          chrome.tabs.create({ url: chrome.runtime.getURL("content/pages/settings-b.html") });
+        }
+        else {
+          chrome.tabs.create({ url: chrome.runtime.getURL("content/pages/settings.html") });
+        }
+      });
     });
   }
 
