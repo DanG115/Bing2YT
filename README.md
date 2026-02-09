@@ -10,7 +10,7 @@
 
 - **Direct YouTube Access**: Automatically skips Bing’s video overlay for YouTube links  
 - **Toggle Control**: Easily enable or disable the redirect behavior at any time  
-- **Lightweight**: Simple, fast, and built with minimal overhead  
+- **Lightweight**: Simple, fast and built with minimal overhead  
 
 ---
 
@@ -44,10 +44,13 @@ Once a version is considered stable, it is released on the extension store.
 
 ---
 
-## Coming Soon
+## Store Availability 
 
-Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store. Once approved, installation on Edge will be available directly from the store.
+Bing2YT is currently listed on the [**Microsoft Edge Add-ons Store**](https://microsoftedge.microsoft.com/addons/detail/bing2yt/aknpofdejndhjeccbmjnbjngjcmmjngg).
 
+This version will offer:
+- Automatic updates
+- A more stable release cadence
 ---
 
 ## How It Works
@@ -69,13 +72,12 @@ Yes. Bing2YT does not collect user data or interfere with unrelated browsing.
 GitHub builds are published early to gather feedback and test changes before a wider store release.
 
 **Will this be available on the Chrome Web Store?**  
-Bing2YT is currently under review for listing on the Microsoft Edge Add-ons store.
+Currently, Bing2YT is only available on the Microsoft Edge Add-ons Store. There are no plans to release it on the Chrome Web Store at this time.
 
 ---
 
-## Support
-
-If you find the extension helpful, please consider starring the project on [GitHub](https://github.com/DanG115/Bing2YT) or sharing it with others.
+## Support & Feedback
+If you encounter issues or have suggestions, feedback is welcome via GitHub Issues & if you find the extension helpful, please consider starring the project on [GitHub](https://github.com/DanG115/Bing2YT) or sharing it with others.
 
 ---
 
