@@ -1,5 +1,7 @@
 # Bing2YT – Direct YouTube Redirect from Bing Videos
 
+**Bing2YT v5.2.0 is now live on GitHub! This update fixes the redirect fallback issue and is currently awaiting approval for the Microsoft Edge Add-ons store.**
+
 **Bing2YT** is a browser extension that redirects YouTube links from Bing video search results directly to YouTube, bypassing Bing’s built-in video player.
 
 ---
